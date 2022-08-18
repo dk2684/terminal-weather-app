@@ -3,20 +3,13 @@
 # User can input the specific location to get the weather report of.
 
 # Imports
-import json # std
-import requests # 3rd
-import datetime # 3rd
+import json # Standard Library
+import requests # 3rd Party
+import datetime # 3rd Party
 import api_key # Local
 
 # Global Variables
 private_key = api_key.return_key()
-
-# Placeholders:
-# country = "us"
-# zip_code = 95757
-# api_key = "&appid=" + private_key
-
-# README: Random VSCode extension destroyed the space/tab formatting.
 
 def data_details():
     """
@@ -217,7 +210,7 @@ def get_using_city(input_city, input_state):
         print("--------------------------------------")
 
 
-# Ignore everything else below
+# Below are examples of raw output from a successful API response and unsuccessful API failure.
 
 """
 EXAMPLE OF API CALL FAILURE:
