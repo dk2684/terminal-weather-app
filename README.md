@@ -1,26 +1,25 @@
-#### Program:
-Simple user interface that provides options to the user.\
-Program will output a real-time weather report based on the location the user inputs.\
-Program will take either City/State or ZIP Code.\
-Weather information provided by API call to OpenWeather.
+### Program:
+    This program outputs real-time weather data based on the
+    inputted City/State or ZIP Code. The user interface is simple
+    to use and relies on the terminal's standard input and output. 
+    Weather reports are provided by API calls to OpenWeatherMap. 
 
-#### Limitations:
-There is a set limit of API calls per day.\
-Weather data only supports United States
+### Required Imports:
+    datetime (pip install datetime)
+    requests (pip install requests)
 
-#### Difficulties:
-Consistent formatting for user experience\
-Allowing for either City/State or ZIP Code input\
-Figuring out how to make an API call and utilize the API response\
-Debugging API response errors
+### Limitations:
+    Weather Data only supports United States locations.
+    Limited to 1000 API calls per day.
 
-#### Future Plans:
-Performance statistics\
-Longitude/Latitude location support\
-Images based on weather description (ASCII Art)\
-An option to view basic or detailed report\
-Refactoring code and increasing efficiency
+### Future Plans:
+    Weather data using Longitude & Latitude information
+    Images (ASCII Art) to illustrate weather conditions
+    Visualizing performance statistics
 
-#### API Information:
-API Source: https://openweathermap.org/ \
-Limit: 1000 API Calls / day
+### API Information:
+    OpenWeatherMap provides global weather data via API, 
+    including current weather data, forecasts, nowcasts and 
+    historical weather data for any geographical location.
+    
+    https://openweathermap.org/
