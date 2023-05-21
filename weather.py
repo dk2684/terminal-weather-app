@@ -44,11 +44,13 @@ def about_openweather():
     Returns:
         void
     """
+    print("\n------------------------ OpenWeatherMap ------------------------")
     print(
-    "\nWeather Data is provided by OpenWeather.\n" + 
+    "Weather Data is provided by OpenWeather.\n" + 
     "For more information about their team and accuracy/quality \n" +
     "of weather data, please visit https://openweathermap.org/.\n"
     )
+    print("----------------------------------------------------------------\n")
 
 def get_using_zip(input_zip):
     """
