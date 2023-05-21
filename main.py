@@ -5,7 +5,7 @@ import weather # Local
 
 def main():
 
-    print("\n------------- Weather App Opened-------------\n")
+    print("\n------------- Weather App Opened -------------\n")
 
     while (True):
         user_input = input(
