@@ -13,6 +13,9 @@
     datetime (pip install datetime)
     requests (pip install requests)
 
+### Demo (Made During Time As Instructional Assistant)
+[![Video](https://img.youtube.com/vi/ipEj5DtkopA/maxresdefault.jpg)](https://www.youtube.com/watch?v=ipEj5DtkopA)
+
 ### Limitations:
     Weather Data only supports United States locations.
     Limited to 1000 API calls per day.
